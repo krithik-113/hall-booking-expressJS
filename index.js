@@ -199,4 +199,4 @@ app.get("/customer/:name", (req, res) => {
   res.json(customerBookings);
 });
 
-app.listen(4000, () => console.log("started server hallbooking"));
+app.listen(4000,'0.0.0.0', () => console.log("started server hallbooking"));
